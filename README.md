@@ -7,3 +7,4 @@ Execute the commands on the file Create_Runbook.ps1 to create the the storage ac
 
 STEP 2:
 Create a LogicApp (Consumption) to get repport content and send it by Email.
+
