@@ -9,8 +9,18 @@ AutoAcctName="CheckSPNExpiration"
 Runbookname="RunBookExpiringSecrets"
 ContainerName='myreportsblobs'
 
-#VARIABLE
+#VARIABLE FOR POWERSHEL 7.1
 
+## $tenantID="6ce3959a-c01e-45e4-902d-5f0196c9ecc4"
+#$SubscriptionID="867daae0-0e98-4fec-ada5-18d7147eb740"
+
+#$ResourceGroup='rg-automation'
+#$staname="checkspnxpirationsta01"
+#$Location='eastus2'
+#$AutoAcctName="CheckSPNExpiration"
+#$Runbookname="RunBookExpiringSecrets"
+#$ContainerName='myreportsblobs'
+##
 
 az login --tenant $tenantID
 az account set --subscription  $SubscriptionID
