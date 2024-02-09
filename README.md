@@ -8,3 +8,5 @@ Execute the commands on the file Create_Runbook.ps1 to create the the storage ac
 STEP 2:
 Create a LogicApp (Consumption) to get repport content and send it by Email.
 
+#Report snapshot
+![report_spn](https://github.com/rbegito/CheckSPNExpiration/assets/25324391/af97cb82-bcaf-4876-9e33-610608d0311b)
